@@ -105,6 +105,7 @@
             this.salidasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.colorDialog1 = new System.Windows.Forms.ColorDialog();
             this.colorDialog2 = new System.Windows.Forms.ColorDialog();
+            this.rHToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -117,7 +118,8 @@
             this.reportesToolStripMenuItem,
             this.seguridadToolStripMenuItem,
             this.bancoToolStripMenuItem,
-            this.almacenToolStripMenuItem});
+            this.almacenToolStripMenuItem,
+            this.rHToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Size = new System.Drawing.Size(599, 24);
@@ -136,14 +138,14 @@
             // preventivosToolStripMenuItem
             // 
             this.preventivosToolStripMenuItem.Name = "preventivosToolStripMenuItem";
-            this.preventivosToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.preventivosToolStripMenuItem.Size = new System.Drawing.Size(135, 22);
             this.preventivosToolStripMenuItem.Text = "Preventivos";
             this.preventivosToolStripMenuItem.Click += new System.EventHandler(this.preventivosToolStripMenuItem_Click);
             // 
             // correctivosToolStripMenuItem
             // 
             this.correctivosToolStripMenuItem.Name = "correctivosToolStripMenuItem";
-            this.correctivosToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.correctivosToolStripMenuItem.Size = new System.Drawing.Size(135, 22);
             this.correctivosToolStripMenuItem.Text = "Correctivos";
             this.correctivosToolStripMenuItem.Click += new System.EventHandler(this.correctivosToolStripMenuItem_Click);
             // 
@@ -166,7 +168,7 @@
             this.motoToolStripMenuItem,
             this.equipoPesadoToolStripMenuItem});
             this.transmisionToolStripMenuItem.Name = "transmisionToolStripMenuItem";
-            this.transmisionToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.transmisionToolStripMenuItem.Size = new System.Drawing.Size(140, 22);
             this.transmisionToolStripMenuItem.Text = "Transmision ";
             // 
             // vehiculoToolStripMenuItem
@@ -197,7 +199,7 @@
             this.motoToolStripMenuItem1,
             this.equipoPesadoToolStripMenuItem1});
             this.motorToolStripMenuItem.Name = "motorToolStripMenuItem";
-            this.motorToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.motorToolStripMenuItem.Size = new System.Drawing.Size(140, 22);
             this.motorToolStripMenuItem.Text = "Motor";
             // 
             // vehiculoToolStripMenuItem1
@@ -227,7 +229,7 @@
             this.vehiculoToolStripMenuItem2,
             this.equipoPesadoToolStripMenuItem2});
             this.transferToolStripMenuItem.Name = "transferToolStripMenuItem";
-            this.transferToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.transferToolStripMenuItem.Size = new System.Drawing.Size(140, 22);
             this.transferToolStripMenuItem.Text = "Transfer";
             // 
             // vehiculoToolStripMenuItem2
@@ -250,7 +252,7 @@
             this.vehiculoToolStripMenuItem3,
             this.equipoPesadoToolStripMenuItem3});
             this.hridraulicoToolStripMenuItem.Name = "hridraulicoToolStripMenuItem";
-            this.hridraulicoToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.hridraulicoToolStripMenuItem.Size = new System.Drawing.Size(140, 22);
             this.hridraulicoToolStripMenuItem.Text = "Hridraulico";
             // 
             // vehiculoToolStripMenuItem3
@@ -271,7 +273,7 @@
             this.vehiculoToolStripMenuItem4,
             this.equipoPesadoToolStripMenuItem4});
             this.frenosToolStripMenuItem.Name = "frenosToolStripMenuItem";
-            this.frenosToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.frenosToolStripMenuItem.Size = new System.Drawing.Size(140, 22);
             this.frenosToolStripMenuItem.Text = "Frenos";
             // 
             // vehiculoToolStripMenuItem4
@@ -305,7 +307,7 @@
             this.tijerasToolStripMenuItem,
             this.barraEstabilizadoraToolStripMenuItem});
             this.suspensionToolStripMenuItem.Name = "suspensionToolStripMenuItem";
-            this.suspensionToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.suspensionToolStripMenuItem.Size = new System.Drawing.Size(137, 22);
             this.suspensionToolStripMenuItem.Text = "Suspension ";
             // 
             // amortiguadoresToolStripMenuItem
@@ -337,7 +339,7 @@
             this.cremalleraCompletaToolStripMenuItem,
             this.polverasDeCremallerasToolStripMenuItem});
             this.direccionToolStripMenuItem.Name = "direccionToolStripMenuItem";
-            this.direccionToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.direccionToolStripMenuItem.Size = new System.Drawing.Size(137, 22);
             this.direccionToolStripMenuItem.Text = "Direccion ";
             // 
             // puntasDeDireccionToolStripMenuItem
@@ -377,7 +379,7 @@
             this.sellosToolStripMenuItem,
             this.soportesToolStripMenuItem});
             this.motorToolStripMenuItem1.Name = "motorToolStripMenuItem1";
-            this.motorToolStripMenuItem1.Size = new System.Drawing.Size(152, 22);
+            this.motorToolStripMenuItem1.Size = new System.Drawing.Size(137, 22);
             this.motorToolStripMenuItem1.Text = "Motor";
             // 
             // anillosToolStripMenuItem
@@ -438,7 +440,7 @@
             this.zapatasDeEmergenciaToolStripMenuItem,
             this.bombaDeFrenosToolStripMenuItem});
             this.frenosToolStripMenuItem1.Name = "frenosToolStripMenuItem1";
-            this.frenosToolStripMenuItem1.Size = new System.Drawing.Size(152, 22);
+            this.frenosToolStripMenuItem1.Size = new System.Drawing.Size(137, 22);
             this.frenosToolStripMenuItem1.Text = "Frenos";
             // 
             // discoDeFrenosToolStripMenuItem
@@ -500,7 +502,7 @@
             this.cuerpoDeAceleracionToolStripMenuItem,
             this.motorDeArranqueToolStripMenuItem});
             this.electricoToolStripMenuItem.Name = "electricoToolStripMenuItem";
-            this.electricoToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.electricoToolStripMenuItem.Size = new System.Drawing.Size(137, 22);
             this.electricoToolStripMenuItem.Text = "Electrico";
             // 
             // iACToolStripMenuItem
@@ -609,19 +611,19 @@
             // mayoristasToolStripMenuItem
             // 
             this.mayoristasToolStripMenuItem.Name = "mayoristasToolStripMenuItem";
-            this.mayoristasToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.mayoristasToolStripMenuItem.Size = new System.Drawing.Size(131, 22);
             this.mayoristasToolStripMenuItem.Text = "Mayoristas";
             // 
             // tallerToolStripMenuItem
             // 
             this.tallerToolStripMenuItem.Name = "tallerToolStripMenuItem";
-            this.tallerToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.tallerToolStripMenuItem.Size = new System.Drawing.Size(131, 22);
             this.tallerToolStripMenuItem.Text = "Taller";
             // 
             // exclusivoToolStripMenuItem
             // 
             this.exclusivoToolStripMenuItem.Name = "exclusivoToolStripMenuItem";
-            this.exclusivoToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.exclusivoToolStripMenuItem.Size = new System.Drawing.Size(131, 22);
             this.exclusivoToolStripMenuItem.Text = "Exclusivo";
             // 
             // cotizacionesToolStripMenuItem1
@@ -641,7 +643,7 @@
             // loginToolStripMenuItem
             // 
             this.loginToolStripMenuItem.Name = "loginToolStripMenuItem";
-            this.loginToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.loginToolStripMenuItem.Size = new System.Drawing.Size(104, 22);
             this.loginToolStripMenuItem.Text = "Login";
             this.loginToolStripMenuItem.Click += new System.EventHandler(this.loginToolStripMenuItem_Click);
             // 
@@ -663,14 +665,20 @@
             // entradasToolStripMenuItem
             // 
             this.entradasToolStripMenuItem.Name = "entradasToolStripMenuItem";
-            this.entradasToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.entradasToolStripMenuItem.Size = new System.Drawing.Size(119, 22);
             this.entradasToolStripMenuItem.Text = "Entradas";
             // 
             // salidasToolStripMenuItem
             // 
             this.salidasToolStripMenuItem.Name = "salidasToolStripMenuItem";
-            this.salidasToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.salidasToolStripMenuItem.Size = new System.Drawing.Size(119, 22);
             this.salidasToolStripMenuItem.Text = "Salidas";
+            // 
+            // rHToolStripMenuItem
+            // 
+            this.rHToolStripMenuItem.Name = "rHToolStripMenuItem";
+            this.rHToolStripMenuItem.Size = new System.Drawing.Size(35, 20);
+            this.rHToolStripMenuItem.Text = "RH";
             // 
             // FormMenu
             // 
@@ -771,5 +779,6 @@
         private System.Windows.Forms.ToolStripMenuItem salidasToolStripMenuItem;
         private System.Windows.Forms.ColorDialog colorDialog1;
         private System.Windows.Forms.ColorDialog colorDialog2;
+        private System.Windows.Forms.ToolStripMenuItem rHToolStripMenuItem;
     }
 }
